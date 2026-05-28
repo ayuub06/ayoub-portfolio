@@ -41,3 +41,12 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+portfolio-fix.zip
+portfolio-v2.zip
+portfolio-v2/
+fixes/
+ui-redesign/
+cleanup-old-files.ps1
+generate-project-images.js
+*.ps1
