@@ -2,19 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
-
 @layer base {
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
   body {
     background: #080c14;
     color: #e8eaf0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  h1, h2, h3, h4 { font-family: 'Syne', sans-serif; letter-spacing: -0.02em; }
+  h1, h2, h3, h4 { letter-spacing: -0.02em; }
   body.custom-cursor-active { cursor: none; }
 }
 
@@ -57,7 +55,6 @@
     gap: 8px;
     padding: 14px 28px;
     border-radius: 10px;
-    font-family: 'Syne', sans-serif;
     font-weight: 700;
     font-size: 15px;
     background: linear-gradient(135deg, #22d3ee, #7c3aed);
@@ -86,7 +83,6 @@
     gap: 8px;
     padding: 13px 28px;
     border-radius: 10px;
-    font-family: 'Syne', sans-serif;
     font-weight: 700;
     font-size: 15px;
     background: transparent;
@@ -102,12 +98,25 @@
     transform: translateY(-2px);
     background: rgba(34,211,238,0.05);
   }
-  .button-neon { display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px; border-radius: 10px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 15px; background: transparent; color: #e8eaf0; border: 1px solid rgba(255,255,255,0.15); cursor: pointer; transition: all 0.25s ease; text-decoration: none; }
+  .button-neon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    background: transparent;
+    color: #e8eaf0;
+    border: 1px solid rgba(255,255,255,0.15);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-decoration: none;
+  }
   .button-neon:hover { border-color: #22d3ee; color: #22d3ee; transform: translateY(-2px); background: rgba(34,211,238,0.05); }
   .float-animation { animation: float 6s ease-in-out infinite; }
   @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
   .section-label {
-    font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
     font-weight: 500;
     letter-spacing: 0.2em;
@@ -120,7 +129,6 @@
   }
   .section-label::before { content: ''; display: inline-block; width: 24px; height: 1px; background: #22d3ee; }
   .section-heading {
-    font-family: 'Syne', sans-serif;
     font-size: clamp(36px, 5vw, 60px);
     font-weight: 800;
     letter-spacing: -0.03em;
@@ -128,7 +136,6 @@
     color: #f0f2f8;
   }
   .stat-number {
-    font-family: 'Syne', sans-serif;
     font-size: 42px;
     font-weight: 800;
     letter-spacing: -0.04em;
@@ -144,13 +151,14 @@
     border-radius: 6px;
     font-size: 12px;
     font-weight: 500;
-    font-family: 'JetBrains Mono', monospace;
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.1);
     color: #94a3b8;
     transition: all 0.2s;
   }
   .tag:hover { border-color: rgba(34,211,238,0.4); color: #22d3ee; background: rgba(34,211,238,0.05); }
+  .glow-cyan { box-shadow: 0 0 20px rgba(34,211,238,0.4); }
+  .glow-purple { box-shadow: 0 0 20px rgba(168,85,247,0.4); }
 }
 
 ::-webkit-scrollbar { width: 4px; }

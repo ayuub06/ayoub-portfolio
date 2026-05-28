@@ -1,5 +1,4 @@
 ﻿'use client';
-
 import Cursor from '@/components/Cursor';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
