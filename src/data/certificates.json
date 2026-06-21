@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01",
+    "name": "EF SET English Certificate C1",
+    "issuer": "EF Education First",
+    "status": "Earned",
+    "imageUrl": "/images/EF SET English Certificate.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 1
+  },
+  {
+    "id": "02",
+    "name": "Intro to Cybersecurity",
+    "issuer": "Cisco Networking Academy",
+    "status": "Earned",
+    "imageUrl": "/images/Cybersecurity Certificate.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 2
+  },
+  {
+    "id": "03",
+    "name": "Big Data 101",
+    "issuer": "IBM Skills Build",
+    "status": "Earned",
+    "imageUrl": "/images/Big_Data_101__Certificate_page.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 3
+  },
+  {
+    "id": "04",
+    "name": "SQL Advanced",
+    "issuer": "HackerRank",
+    "status": "Earned",
+    "imageUrl": "/images/sql_advanced certificate.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 4
+  },
+  {
+    "id": "05",
+    "name": "Frontend Developer (React)",
+    "issuer": "HackerRank",
+    "status": "Earned",
+    "imageUrl": "/images/frontend_developer_react certificate.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 5
+  },
+  {
+    "id": "06",
+    "name": "Python Basic",
+    "issuer": "HackerRank",
+    "status": "Earned",
+    "imageUrl": "/images/python_basic certificate.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 6
+  },
+  {
+    "id": "07",
+    "name": "AWS Cloud Practitioner",
+    "issuer": "Amazon Web Services",
+    "status": "In Progress",
+    "imageUrl": "/images/AWS Cloud Practitioner.jpg",
+    "credentialUrl": "https://www.linkedin.com/in/ayoub-imourigue",
+    "order": 7
+  }
+]

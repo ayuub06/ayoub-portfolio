@@ -1,0 +1,46 @@
+[
+  {
+    "id": "01",
+    "name": "AI Automation SaaS Platform",
+    "description": "Built a productivity SaaS that connects AI tools with n8n automation pipelines. Users can set up workflows that run automatically — no manual work needed. Handles complex multi-step processes across different services.",
+    "tags": ["Node.js", "JavaScript", "n8n", "AI APIs", "Vercel"],
+    "githubUrl": "https://github.com/ayuub06",
+    "liveUrl": "https://ai-saas-platform-tan.vercel.app/",
+    "imageUrl": "/images/project-ai-saas.png",
+    "status": "Live",
+    "order": 1
+  },
+  {
+    "id": "02",
+    "name": "Exam Management System",
+    "description": "Web platform for managing university examinations end-to-end. Handles room allocation, invigilator scheduling, conflict detection, and gives admins a real-time dashboard to manage everything without spreadsheets.",
+    "tags": ["PHP", "MySQL", "JavaScript", "HTML/CSS"],
+    "githubUrl": "https://github.com/ayuub06",
+    "liveUrl": "https://gestion-examens-frontend.vercel.app/",
+    "imageUrl": "/images/project-exam.png",
+    "status": "Live",
+    "order": 2
+  },
+  {
+    "id": "03",
+    "name": "Internal Management App",
+    "description": "Built during my ORMVA internship to replace paper-based administrative processes. Digitized workflows, added role-based access control, and gave the team a clean dashboard to manage operations.",
+    "tags": ["PHP", "MySQL", "JavaScript", "Admin UI"],
+    "githubUrl": "",
+    "liveUrl": "",
+    "imageUrl": "/images/project-internal.png",
+    "status": "Private",
+    "order": 3
+  },
+  {
+    "id": "04",
+    "name": "Portfolio Website",
+    "description": "This portfolio — designed and built from scratch with Next.js 14, Framer Motion animations, glassmorphism UI, a working contact form via Resend, and deployed on Vercel.",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    "githubUrl": "https://github.com/ayuub06",
+    "liveUrl": "https://ayoub-portfolio-orcin.vercel.app/",
+    "imageUrl": "/images/project-portfolio.png",
+    "status": "Live",
+    "order": 4
+  }
+]
